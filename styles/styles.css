@@ -1,0 +1,176 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+
+    --primeira-fonte: 'Krona One', sans-serif; 
+    --segunda-fonte: 'Montserrat', sans-serif;
+
+    --primeira-cor: #EEE82C;
+    --segunda-cor: #CFB3CD;
+    --terceira-cor: #22181C;
+    --quarta-cor: #FFFFFF;
+    --quinta-cor: #CBFF4D;
+}
+
+.cabecalho {
+    background-color: var(--quinta-cor);
+    padding: 2% 0% 0% 10%;
+    
+}
+
+.cabecalho-logo {
+    width: 800px;
+    position: relative;
+    margin: 0% auto;
+
+}
+
+body{
+    font-family: var(--segunda-fonte);
+}
+
+.apresentacao-home {
+    padding: 8% 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 40px;
+    
+}
+    
+
+.apresentacao-home-conteudo {
+    width: 615px;
+    display: flex
+    
+}
+
+.home-descricao {
+    font-size: 20px;
+}
+
+.contato-dados {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label {
+    display:block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+form input {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 20%;
+}
+
+nav {
+    position: absolute;
+    top: 80px;
+    right: 0%;
+    
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 30px;
+    
+    
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: 600;
+    font-size: 22px;
+    text-decoration: none;
+    font-family: var(--primeira-fonte);
+    
+}
+
+nav a:hover {
+    color:var(--quarta-cor);
+}
+
+
+.produtos {
+    width: 940px;
+    margin: 0% auto;
+    padding: 50px 0;
+    
+
+}
+
+.produtos li:hover{
+    border-color: var(--terceira-cor);
+}
+
+.produtos li:active{
+    border-color: green;
+}
+
+.produtos li:hover h2 {
+    font-size: 35px;
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10%;
+    border-color: white;
+
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+.descricao-produtos {
+    font-size: 18px;
+}
+
+.descricao-preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    background-color: var(--terceira-cor);
+    font-weight: 400;
+    padding: 24px;
+    font-family: var(--segunda-fonte);
+}
+
+.rodape-texto {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 0 0 0 50px;
+}
+
+.rodape-texto:hover {
+color: var(--quinta-cor);
+} */

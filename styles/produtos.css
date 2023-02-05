@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+:root {
+    --primeira-fonte: 'Krona One', sans-serif; 
+    --segunda-fonte: 'Montserrat', sans-serif;
+
+    --primeira-cor: #F45B69;
+    --segunda-cor: #CFB3CD;
+    --terceira-cor: #22181C;
+    --quarta-cor: #FFFFFF;
+    --quinta-cor: #CBFF4D;
+}
+
+.cabecalho {
+    padding: 2% 0% 0% 10%;
+    background-color: var(--quinta-cor);
+    
+}
+
+.cabecalho-logo {
+    display: flex;
+    gap: 80px;
+    position: relative;
+    margin: 0% auto;
+    
+}
+
+.menu-opcoes {
+    position: absolute;
+    top: 80px;
+    right: 0%; 
+    margin: 0% 30% 0% 0%;
+    
+}
+
+.estilo-menu-opcoes {
+    text-transform: uppercase;
+    color: var(--terceira-cor);
+    font-weight: 600;
+    font-size: 22px;
+    text-decoration: none;
+    font-family: var(--primeira-fonte);
+}
+
+.estilo-menu-opcoes:hover {
+    color: var(--quarta-cor);
+    font-size: 25px;
+}
+
+.link-home {
+    display: inline;
+    margin: 0 0 0 30px;
+}
+
+.produtos {
+    width: 940px;
+    margin: 0% auto;
+    padding: 50px 0;
+}
+
+.produtos-estilo {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0% 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid var(--terceira-cor);
+    border-radius: 10%;
+    font-family: var(--segunda-fonte);
+    
+}
+
+.produtos-estilo:hover {
+    font-size: 20px;
+    border-color: var(--primeira-cor);
+}
+
+.descricao-produtos {
+    font-family: var(--primeira-fonte);
+    font-size: 18px;
+}
+
+.descricao-produtos-preco {
+    font-size: 25px;
+    font-family: var(--segunda-fonte);
+}
+
+.rodape {
+    text-align: center;
+    background-color: var(--terceira-cor);
+    padding: 24px;
+    font-size: 15px;
+    
+}
+
+.rodape-texto {
+    font-family: var(--primeira-fonte);
+    color: var(--quarta-cor);
+    text-decoration: none;
+    margin: 0 0 0 50px;
+    
+}
+
+.rodape-texto:hover {
+    color: var(--quinta-cor);
+}
